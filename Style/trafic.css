@@ -1,0 +1,42 @@
+#partietrafic{
+    margin: auto ; 
+    margin-top: 75px ; 
+}
+
+
+
+#partietrafic h2{
+    color: #2E296A ; 
+    text-align: center ; 
+}
+
+
+#partietrafic li{
+    list-style: none ; 
+    background: #FFFFFF;
+    border: 1px solid #2E296A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 5% ; 
+    padding: 2% ; 
+    
+}
+
+#partietrafic ul{
+    margin: 0px ; 
+    padding:  5%  ; 
+    
+}
+
+.typeinfo{
+    font-weight: 700 ; 
+    color: #2E296A ; 
+}
+
+@media only screen and (min-width: 800px) {
+
+    ul#incident{
+        padding-top: 0 ; 
+    }
+    
+} 

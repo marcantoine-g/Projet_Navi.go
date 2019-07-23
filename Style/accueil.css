@@ -1,0 +1,191 @@
+#partieaccueil{
+    background-color: white;
+    top: 59px ; 
+}
+#map{
+    z-index: 0;
+}
+
+#partieaccueil form{
+    text-align: center ; 
+    padding-top: 5% ; 
+}
+
+.recherche{
+    width: 300px;
+    height: 35px;
+    background: #2E296A ;
+    border: 1px solid #2E296A ;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 7% ; 
+    margin-top: 7% ; 
+    margin: auto ; 
+    padding: 2% ;  
+    color: white ; 
+    z-index: 0 ; 
+    padding: 1% ; 
+    padding-left: -4% ;
+    color: white ;
+}
+
+.recherche2{
+    border: none ; 
+    background: #2E296A ;
+    padding: 0 ; 
+    z-index: 0 ;  
+    color: white ;
+    margin-bottom: 2% ; 
+    margin-top: 0 !important ;
+    width: 100px ; 
+    
+}
+
+img.favoriArivee{
+    height: 12px ; 
+    width: 12px ;
+    z-index: 5 ;
+    float: right ;
+    margin: 1% ; 
+}
+
+ #partieaccueil form ::placeholder { 
+  color: white ;
+  opacity: 0.66 ; 
+}
+
+.boutton3{
+    background: #2E296A;
+    border: 1px solid #2E296A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white ; 
+    font-family: Roboto;
+    padding: 2% ; 
+    padding-left: 4% ; 
+    padding-right: 4% ; 
+    margin-top: 7% ; 
+    margin-bottom: 7% ; 
+    margin-left: 50% ;  
+}
+
+.ac-header{
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+}
+
+.ac-input-dropdown-menu{
+    margin-top: -20px;
+    background-color: rgba(46, 41, 106, 0.95);
+    color: white;
+    border-radius: 20px;
+    z-index: 3;
+    padding: 10px;
+}
+
+.ac-input-suggestion{
+    margin: 5px;
+    padding:5px;
+    cursor: pointer;
+}
+.ac-input-cursor {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+}
+
+.favoris{
+    width: 20px ; 
+}
+
+#select_depart{
+    border: none ; 
+    font-family: 'Parisine' ; 
+    width: 30%
+}
+
+#select_arrivee{
+    border: none ; 
+    font-family: 'Parisine' ; 
+    width: 30%
+}
+
+
+.algolia-autocomplete{
+    width: 60% ; 
+    margin-right: -100px ; 
+    padding: 0 ; 
+    position: inherit ; 
+}
+
+
+
+.boutonfav{
+        float: right  ;
+        margin-top: -30px ; 
+    }
+
+
+@media only screen and (max-width: 375px) {
+    #select_depart, #select_arrivee{
+        padding: 0 ; 
+        margin-left: -1.5% ; 
+        margin-top: -3% ; 
+        z-index: 5 ; 
+        width : 30% ; 
+        background-color: #2E296A; 
+        border-top-left-radius: 0 ; 
+        border-top-right-radius: 0 ; 
+        color: white ; 
+        border: 0 ; 
+        margin-top: -30px ; 
+    }
+    
+    img.favoriArivee{
+        height: 12px ; 
+        width: 12px ;
+        z-index: 6 ;
+        float: right ;
+        margin-top: -50px ; 
+        background-color: red ; 
+}  
+
+
+
+}
+
+@media only screen and (min-width: 800px) {
+    .recherche2{
+        width: 100% ; 
+        float: left; 
+        display: inline-block ; 
+        position: relative ; 
+    }
+    
+    #select_depart, #select_arrivee{
+        float: right; 
+        display: inline-block ;
+        position: relative ;
+        margin-top: -26px ; 
+        margin-right: 34px ; 
+    }
+    .recherche{
+        height: 15% ;
+    }
+    
+    
+    #partieaccueil form{ 
+        padding-top: 2% ; 
+    }
+    
+    input.boutton3{
+        padding: 1% ; 
+        padding-left: 2% ; 
+        padding-right: 2% ; 
+        margin-top: 1% ; 
+        margin-bottom: 7% ; 
+        margin-left: 50% ;  
+    
+    }
+}

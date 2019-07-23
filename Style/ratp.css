@@ -1,0 +1,24 @@
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body{
+    background-color: #2E296A;
+}
+
+body {
+    font-family: 'Roboto';
+    height: 170vw ; 
+}
+
+@font-face {
+    font-family: Parisine;
+    src: url(./Style/fonts/Parisine-Regular.otf) ; 
+}

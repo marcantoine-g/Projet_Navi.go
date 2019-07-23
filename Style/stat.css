@@ -1,0 +1,62 @@
+#partiestat{
+    margin: 2% ; 
+    margin-top: 75px ; 
+    
+      
+}
+
+
+#partiestat h2{
+    text-align: center ; 
+    color: #2E296A ;
+    
+}
+
+
+#piechart_3d{
+    margin: auto ; 
+    width: 500px ;
+    margin-left: -125px ; 
+}
+
+#chart_div2{
+    margin: auto ; 
+    text-align: center ; 
+}
+
+
+#connexionstat{
+    margin: auto ; 
+    margin-top: 80px ; 
+    width: 500px ; 
+    text-align: center ; 
+}
+
+
+#connexionstat{
+    margin: auto ; 
+    margin-top: 20% ; 
+    width: 500px ; 
+    text-align: center ; 
+    
+}
+
+#connexionstat h2{
+     color: #2E296A ;
+    
+}
+
+@media only screen and (min-width: 800px) {
+    #partiestat{
+        width: 500px ; 
+        margin: auto ; 
+        margin-top: 80px ; 
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #partiemenu{
+        width: 375px ; 
+        margin: auto ;
+
+}

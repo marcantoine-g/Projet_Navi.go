@@ -1,0 +1,149 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+
+#partierecherche {
+    text-align: center;
+    margin-top: 75px ; 
+}
+
+#input_arrivee {
+    margin-top : 1em;
+}
+
+
+
+.divTrajet {
+    margin: auto ; 
+    border: solid 1px #2E296A; 
+    border-radius: 5px ; 
+    margin: 10px;
+    text-align: left;
+    padding: 0.2em;
+    
+}
+
+.divMoyenTransport {
+    float: left;
+    text-align: center;
+    margin-right: 0.2em;
+}
+
+.divBulleLigne {
+    color:white;
+    height:24px;
+    width:24px;
+    border-radius: 20px;
+    /* margin-top: 0.2em;
+    margin-right: 0.2em; */
+    line-height: initial;
+    text-align: center;
+    margin : auto;
+    justify-content: center;
+}
+
+.duree{
+    display: inline-block;
+    margin: 0.85em;
+}
+
+.personne {
+    width: 20px;
+    margin: auto;
+}
+
+.icone {
+    display:inline-block;
+    margin: 0.2em;
+    width: 60%;
+}
+
+.fleche{
+    cursor: pointer;
+    width: 15px;
+}
+
+.derouleDetail {
+    border: 1px solid #2E296A;
+    border-radius: 5px ; 
+    width:90%;
+    height: auto;
+    margin: auto;
+    padding-top: 1em;
+}
+
+
+.commentaire {
+    color: gray;
+    font-size: 75%;
+    margin: auto;
+}
+
+.map{
+    margin-top: 2em;
+}
+
+.personne_petit{
+    width: 20px;
+    margin-right: 0;
+}
+
+.nomStation {
+    font-weight: bold; 
+}
+
+.btn_perso {
+    text-decoration: none;
+    margin: 1em auto;
+    display: block;
+    text-align: center;
+    background-color: #2E296A;
+    color: white;
+    border-radius : 5px;
+    padding: 1em;
+}
+
+.btn_perso:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+div.divMoyenTransport.divBulleLigne{
+    font-family: 'Parisine' ; 
+    padding-top: 2px ; 
+}
+
+div.BulleLigne{
+    font-family: 'Parisine' ; 
+    padding-top: 2px ; 
+}
+
+@media only screen and (min-width: 800px) {
+    #partierecherche{
+        width: 500px ;
+        margin: auto ; 
+        margin-top: 80px  
+    }
+    
+    .divTrajet{
+        width: 500px ;
+        margin: auto ; 
+        margin-top: 2% ; 
+    }
+    
+    div#derouleDetail.derouleDetail{
+        width: 500px ;
+        margin: auto ; 
+        margin-top: 2% ; 
+    }
+    
+    .recherche{
+        width: 500px ; 
+        margin: auto ; 
+}
+
+}
+
+

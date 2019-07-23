@@ -1,0 +1,319 @@
+.formulaire{
+    top: 59px ; 
+    background-color: #2E296A;
+    height: 100vh ; 
+    color: white ; 
+    text-align: center ; 
+    font-family: 'Roboto';
+}
+
+.formulaire .titre{
+    padding-top: 5% ; 
+    padding-bottom: 5% ; 
+    font-weight: 200 ; 
+}
+
+.formulaire input:required {
+  border-color: #800000;
+}
+
+.entree{
+    width: 300px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #2E296A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 7% ; 
+    padding: 2% ;  
+}
+
+
+.formulaire ::placeholder { 
+  color: #2E296A;
+  opacity: 0.66 ; 
+}
+
+
+.boutton2{
+    background: #2E296A;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white ; 
+    font-family: Roboto;
+    padding: 2% ; 
+    padding-left: 4% ; 
+    padding-right: 4% ; 
+    margin-bottom: 5% ; 
+
+}
+
+.erreurs {
+    color: red ; 
+}
+
+
+#infocompte{
+    background-color: white;
+    height: 100% ; 
+    color: #2E296A ; 
+    text-align: left ; 
+    font-family: 'Roboto';
+    margin: 5% ; 
+    margin-top: 80px ; 
+}
+
+
+#infocompte a{
+    height: 30px ; 
+    margin: 0px ; 
+    padding: 0px ; 
+}
+
+.forminfo{
+    width: 300px;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #2E296A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: -3% ; 
+    padding: 1.5% ;  
+    margin-right: 5% ; 
+    margin-left: 3% ; 
+    vertical-align: middle ; 
+}
+
+#infocompte  .col-4{
+    font-size: 10pt ; 
+    opacity : 0.5 ; 
+    float: left ; 
+}
+
+#modifinfocompte{
+    color: #2E296A ; 
+    margin : 6% ; 
+    top: 59px ;
+    margin-top: 75px ;
+    width: 800px ; 
+}
+
+.formmodifinfo{
+    width: 350px;
+    height: 40px;
+    margin-top: -15px ; 
+    vertical-align: middle ; 
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1.5% ;  
+    margin-right: 5% ; 
+    margin-left: 3% ; 
+    color: #2E296A ; 
+}
+
+#modifinfocompte .col-4{
+    width: 300px ; 
+    float: left ;
+    opacity : 0.5 ; 
+}
+
+#modifinfocompte input[type="text"] {
+    background: #FFFFFF;
+    border: 1px solid #2E296A;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    padding: 1.5% ; 
+    color: #2E296A ; 
+}
+
+#modifinfocompte input[type="password"] {
+    background: #FFFFFF;
+    border: 1px solid #2E296A;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    padding: 1.5% ; 
+    color: #2E296A ; 
+}
+
+#bouttonmodif{
+    background: #2E296A;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    padding: 2% ;
+    padding-left: 4% ;  
+    padding-right: 4% ;
+    color: white ; 
+    float: right ; 
+    opacity: 1 ; 
+    margin-top: 5%;
+}
+
+
+        
+#stationPref1{
+    background: #FFFFFF;
+
+    border: 1px solid #2E296A;
+    
+    box-sizing: border-box;
+    
+    border-radius: 5px;
+    
+    padding: 1.5%;
+    
+    color: #2E296A;
+    width: auto;
+            
+    
+}
+
+.algolia-autocomplete{
+    display: flex !important;
+}
+
+.spanStation{
+    display: flex;
+}
+
+#stationPref2{
+    background: #FFFFFF;
+
+    border: 1px solid #2E296A;
+    
+    box-sizing: border-box;
+    
+    border-radius: 5px;
+    
+    padding: 1.5%;
+    
+    color: #2E296A;
+
+    width: auto;
+}
+
+
+@media only screen and (min-width: 800px) {
+    #infocompte{
+        top : 80px ; 
+        width: 50% ;
+        margin: auto ; 
+        margin-top: 80px  
+    }
+    
+     #modifinfocompte{
+        top : 80px ; 
+        width: 60% ;
+        margin: auto ; 
+        margin-top: 80px   
+    }
+    
+    div.formmodifinfo{
+        width: 100% ; 
+        margin: auto ; 
+    }
+    
+     #modifinfocompte span.col-4{
+        width: 30% ;
+        margin: 0 ; 
+        padding: 0 ; 
+        
+    }
+    
+    .formmodifinfo input{
+        width: 70% ; 
+    }
+    
+    #modifinfocompte div.row{
+        margin: 0 ; 
+        padding: 0 ; 
+        width: 100% ; 
+        
+    }
+    
+    .forminfo{
+        width: 80% ;
+    }
+    
+    .infocomptes img{
+        float: none ;  
+    }
+    
+    .col-8{     
+        margin: auto ; 
+    }
+    
+    .formmodifinfo{     
+        width: 50% ; 
+        margin: auto ; 
+    }
+    
+    #bouttonmodif{
+        margin-right: 20% ; 
+    }
+    
+    .formulaire{
+    padding-top: 80px ; 
+    background-color: #2E296A;
+    }
+    
+    h2.titre{
+        margin: 0 ; 
+        padding: 0 ; 
+        height: 10px ; 
+    }
+    
+    div.formulaire{
+        padding-right: 250px ;
+        padding-left: 250px ; 
+        
+    }
+    
+    body{
+        background-color: #2E296A ; 
+    }
+        
+    #stationPref1{
+        background: #FFFFFF;
+
+        border: 1px solid #2E296A;
+        
+        box-sizing: border-box;
+        
+        border-radius: 5px;
+        
+        padding: 1.5%;
+        
+        color: #2E296A;
+                
+        width: auto;
+    }
+
+    .algolia-autocomplete{
+        display: flex !important;
+    }
+
+    #stationPref2{
+        background: #FFFFFF;
+
+        border: 1px solid #2E296A;
+        
+        box-sizing: border-box;
+        
+        border-radius: 5px;
+        
+        padding: 1.5%;
+        
+        color: #2E296A;
+
+        width: auto;
+    }
+    
+    .spanStation {
+        display: inline;
+    }
+
+}
+
+
